@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Constellation of Us</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="intro-screen">
+        <div class="intro-text">Click to start our constellation ✨</div>
+      </div>
+      
+    <div class="click-message">Click on the stars ✨</div>
+
+  <audio id="bg-music" src="assets/Beneath the Mask.mp3" autoplay muted loop></audio>
+
+  <div class="sky" id="sky">
+    <!-- Stars will be generated with JS -->
+  </div>
+
+  <!-- Modal -->
+  <div class="modal" id="modal">
+    <div class="modal-content">
+      <span id="close-btn">&times;</span>
+      <img id="memory-photo" src="" alt="Memory">
+      <p id="memory-text"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
